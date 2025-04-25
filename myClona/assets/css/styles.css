@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+}
+
+header {
+    background-color: #161616;
+    color: #FFFFFF;
+    border-bottom: #000000 2px solid;
+}
+
+.nav-bar {
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    list-style: none;
+
+}
+
+.nav-bar .nav-bar-buttons {
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2px;
+}
+
+.nav-bar .nav-bar-buttons button {
+    background-color: #161616;
+    font-size: 15px;
+    margin: 10px 20px;
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#my-clona {
+    margin-left: 20px;
+    font-size: 20px;}
+
+body {
+    background-color: #000521;
+    color: #FFFFFF;
+}
+
+.banner-principal{
+    background: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.carrossel-area { 
+    position: relative;
+    max-width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.carrossel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.carrossel img {
+    width: 70%;
+    height: 70%;
+    margin: 10px 1px;
+    border-radius: 20px;
+}
